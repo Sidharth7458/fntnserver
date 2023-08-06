@@ -1,0 +1,207 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+    color: var(--primary-text-color);
+    padding-inline:var(--padding-inline-section);
+
+}
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+  
+}
+p{
+    font-family:'roboto', serif;
+    font-size: 1.25rem;
+    color: ver(--secondary -text-color);
+
+}
+a{
+    text-decoration:none !important;
+    display: inline-block;
+}
+
+
+/* utility-class */
+
+.container{
+    max-width: 1180px;
+    margin:auto;
+    padding-inline:var(--padding-inline-section);
+    overflow: hidden;
+}
+
+    .flex{
+        display: flex;
+        align-items: center;
+    }
+    ul{
+        list-style: none;
+    }
+    .hover-links:hover{
+        color: rgb(1, 255, 255);
+       
+
+    }
+    .primary-button{
+        background-color: #12b1e6;
+        border-radius: 6px;
+        font-weight: 500;
+        color:white !important;
+        padding: 12px 24px ;
+        box-shadow: 0 0 2px black;
+       
+
+    }
+    .primary-button:hover{
+        background-color: rgb(3, 77, 77);
+    }
+    .secondary-button{
+        border:0.5px solid #12b1e6;
+        border-radius: 6px;
+        font-weight: 500;
+        padding: 12px 24px ;
+        color: #04171e;
+    }
+
+    
+
+      /* top-banner */
+
+
+.small-bold-text{
+    font-size: 1rem !important;
+    font-weight: 700;
+}
+.banner-text{
+    color: white !important;
+    padding: 15px 30px !important;
+    text-align: center;
+}
+
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url('topbanner.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+       /* nav- */
+    
+
+
+.company-logo{
+ width:200px;
+}
+.main-nav{
+    justify-content:space-between;
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+.nav-links{
+    flex-basis:730px;
+}
+
+/* header */
+
+header {
+    padding: 50px var(--padding-inline-section) 0;
+ }
+.header-section{
+    justify-content: center;
+    gap:50px;
+    background-image: url('psychedelic-paper-shapes-with-copy-space.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.header-right img {
+    width: 500px;
+    position:relative;
+    rotate:5deg;
+
+}
+.header-left{
+    max-width: 40vw;
+   
+}
+.header-left h1 {
+    margin-top: 20px;
+}
+ .gs-button{
+        margin-top: 20px;
+
+    }
+
+/* companeis logos */
+
+.comapanies-header{
+    text-align: center;
+    margin-block: 30px;
+    color: #04171e;
+
+}
+.logos{
+   justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 80px;
+    height:46 px;
+    
+}
+/* feature-header */
+
+.feature-header{
+    text-align: center;
+   
+}
+.feature-section{
+    padding-top:80px var(--padding-inline-section) 0;
+    
+   
+    background-repeat: no-repeat;
+    /* background-color: #12b1e6; */
+}
+.feature-header h2{
+    margin-top:30px;
+    
+ }
+ .feature-area{
+      flex-wrap: wrap;  
+    justify-content:space-between;
+
+}  
+.feature-card{
+    align-items: center;
+   flex-direction: column ;
+   gap: 20px;
+   align-items: center;
+   /* max-width:30% ; */
+   max-width: 30%;
+   text-align: center;
+   margin-top: 40px;
+
+}
+.feature{
+    background-image: url('psychedelic-paper-shapes-with-copy-space.jpg');
+    background-size: cover;
+}
+    
+
